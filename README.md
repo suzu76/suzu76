@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 # ('◇')ゞ
-- 🍺 Wowoooow!
+- 🍺 Wow!
 
 
 <!--
