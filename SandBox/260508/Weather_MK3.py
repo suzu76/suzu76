@@ -85,7 +85,7 @@ def get_colorful_weather():
 
     file_path = "colorful_weather.html"
     with open(file_path, "w", encoding="utf-8") as f:
-        f.write(full_html if 'full_html' in locals() else html_content)
+        f.write(html_content)
     webbrowser.open('file://' + os.path.realpath(file_path))
 
 if __name__ == "__main__":
