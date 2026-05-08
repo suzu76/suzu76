@@ -1,0 +1,15 @@
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\bin\Debug\net8.0-windows\MyVbApp.exe
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\bin\Debug\net8.0-windows\MyVbApp.deps.json
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\bin\Debug\net8.0-windows\MyVbApp.runtimeconfig.json
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\bin\Debug\net8.0-windows\MyVbApp.dll
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\bin\Debug\net8.0-windows\MyVbApp.pdb
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\obj\Debug\net8.0-windows\MyVbApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\obj\Debug\net8.0-windows\MyVbApp.AssemblyInfoInputs.cache
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\obj\Debug\net8.0-windows\MyVbApp.AssemblyInfo.vb
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\obj\Debug\net8.0-windows\MyVbApp.vbproj.CoreCompileInputs.cache
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\obj\Debug\net8.0-windows\MyVbApp.sourcelink.json
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\obj\Debug\net8.0-windows\MyVbApp.dll
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\obj\Debug\net8.0-windows\refint\MyVbApp.dll
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\obj\Debug\net8.0-windows\MyVbApp.pdb
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\obj\Debug\net8.0-windows\MyVbApp.genruntimeconfig.cache
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\obj\Debug\net8.0-windows\ref\MyVbApp.dll

@@ -1,0 +1,2 @@
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\bin\Release\net10.0-windows\win-x64\publish\MyVbApp.pdb
+C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\MyVbApp\bin\Release\net10.0-windows\win-x64\publish\MyVbApp.exe
