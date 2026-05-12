@@ -83,9 +83,21 @@ def get_colorful_weather():
     </html>
     """
 
-    file_path = "colorful_weather.html"
+    SAVE_DIR = r"C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\temp@"
+    file_path = os.path.join(SAVE_DIR, "colorful_weather.html")
+
+    # フォルダが存在しない場合に備えて作成（念のため）
+    if not os.path.exists(SAVE_DIR):
+        os.makedirs(SAVE_DIR)
+
+    # ファイル保存
     with open(file_path, "w", encoding="utf-8") as f:
-        f.write(html_content)
+     f.write(html_content)
+
+    print(f"✨ ファイルを保存しました: {file_path}")
+
+    # ブラウザ起動
+    # ブラウザで開く際はパスを絶対パス（realpath）に変換して渡します
     webbrowser.open('file://' + os.path.realpath(file_path))
 
 if __name__ == "__main__":

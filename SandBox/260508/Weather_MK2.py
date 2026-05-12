@@ -36,7 +36,8 @@ def get_weather_by_location():
     weather_map = {0: "☀️ 快晴", 1: "🌤 晴れ", 2: "⛅ 曇り", 3: "☁️ どんより", 45: "🌫 霧", 51: "🌧 小雨", 61: "☔ 雨"}
     weather_text = weather_map.get(code, "🌈 不明")
 
-    # 3. HTMLを生成して表示
+    # 3. HTMLを生成
+    # ★ ここから下の処理もすべて関数の「中（右にズレた状態）」に書きます
     html_content = f"""
     <!DOCTYPE html>
     <html lang="ja">
@@ -61,10 +62,23 @@ def get_weather_by_location():
     </html>
     """
 
-    file_path = "dynamic_weather.html"
+    # --- 保存場所の設定 ---
+    SAVE_DIR = r"C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\temp@"
+    file_path = os.path.join(SAVE_DIR, "dynamic_weather.html")
+
+    # フォルダが存在しない場合に備えて作成
+    if not os.path.exists(SAVE_DIR):
+        os.makedirs(SAVE_DIR)
+
+    # ファイル保存
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(html_content)
+
+    print(f"✨ ファイルを保存しました: {file_path}")
+
+    # ブラウザ起動
     webbrowser.open('file://' + os.path.realpath(file_path))
+
 
 if __name__ == "__main__":
     get_weather_by_location()

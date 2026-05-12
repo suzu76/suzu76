@@ -52,10 +52,21 @@ full_html = f"""
 </html>
 """
 
-# ファイル書き出し
-file_path = "zukan.html"
+# --- 保存場所の設定 ---
+# フォルダパスを r"..." で囲むことで、バックスラッシュ（\）をそのまま扱えます
+SAVE_DIR = r"C:\Users\7004141\OneDrive - Panasonic\作業用\Git-Work\suzu76\SandBox\temp@"
+file_path = os.path.join(SAVE_DIR, "zukan.html")
+
+# フォルダが存在しない場合に備えて作成（念のため）
+if not os.path.exists(SAVE_DIR):
+    os.makedirs(SAVE_DIR)
+
+# ファイル保存
 with open(file_path, "w", encoding="utf-8") as f:
     f.write(full_html)
 
-# ブラウザで表示
+print(f"✨ ファイルを保存しました: {file_path}")
+
+# ブラウザ起動
+# ブラウザで開く際はパスを絶対パス（realpath）に変換して渡します
 webbrowser.open('file://' + os.path.realpath(file_path))
